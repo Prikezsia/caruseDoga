@@ -1,3 +1,75 @@
 *{
     box-sizing: border-box;
 }
+
+.egesz {
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    background: white;
+    max-width: 800px;
+    margin: 40px auto;
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption span {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0.3rem 0.5rem;
+
+}
+
+.left-link,
+.right-link {
+    position: absolute;
+    top: 30vh;
+    font-size: 5em;    
+}
+
+.left-link a,
+.right-link a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.left-link {
+    left: 0;
+}
+
+.right-link {
+    right: 0;
+}
+
+
+.kor1{
+    position: absolute;
+    top: 10vh;
+    left: 40vh;
+    font-size: 1em;    
+}
+
+.kor2{
+    position: absolute;
+    top: 10vh;
+    left: 45vh;
+    font-size: 1em;    
+}
+
+.kor3{
+    position: absolute;
+    top: 10vh;
+    left: 50vh;
+    font-size: 1em;    
+}
