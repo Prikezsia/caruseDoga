@@ -73,3 +73,21 @@ figcaption span {
     left: 50vh;
     font-size: 1em;    
 }
+
+.kor1 a:hover,
+.kor2 a:hover,
+.kor3 a:hover{
+    background: rgba(12, 32, 145, 0.5);
+}
+
+#elso{
+    background: rgba(12, 32, 145, 0.5);
+}
+
+#masodik{
+    background: rgba(12, 32, 145, 0.5);
+}
+
+#harmadik{
+    background: rgba(12, 32, 145, 0.5);
+}
